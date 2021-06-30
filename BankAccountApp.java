@@ -10,7 +10,7 @@ public class BankAccountApp {
 
 
 
-        String file = "C:\\Users\\u422902\\OneDrive - Health Care Service Corporation\\Desktop\\NewBankAccounts.csv";
+        String file = "C:\\Users\\Desktop\\NewBankAccounts.csv";
         List<String[]> newAccountHolder = utilities.CSV.read(file);
         for (String[] accountHolder : newAccountHolder) {
             String name = accountHolder[0];
